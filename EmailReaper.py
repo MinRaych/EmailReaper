@@ -1,6 +1,8 @@
 import discord
 # - Download discord.py https://pypi.org/project/discord.py/ #
 client = discord.Client()
+token = "" # <- your token
+
 
 @client.event
 async def on_connect():
