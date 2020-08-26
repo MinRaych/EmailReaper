@@ -1,9 +1,6 @@
 import discord
-import RuptureUtils
 # - Download discord.py https://pypi.org/project/discord.py/ #
 client = discord.Client()
-token = RuptureUtils.token
-
 
 @client.event
 async def on_connect():
